@@ -191,7 +191,7 @@ function Coin({} : ICoinProps) {
     <Header>
     <Gostdiv></Gostdiv>
     <Title>{state?.name ? state.name : loading ? "Loading..." : infoData?.name}</Title>
-    <Link to="/">
+    <Link to="/coin-show/">
         <FontAwesomeIcon icon={faArrowAltCircleLeft} size="2x"/>
     </Link>
     </Header>
